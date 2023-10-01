@@ -1,0 +1,196 @@
+body {
+    font-family: "Montserrat";
+}
+
+/* title section */
+h1 {
+    font-family: "Montserrat-Balck";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+@media (max-width:1028px) {
+    h1{
+        width: 500px;
+    }
+}
+
+#title {
+    background-color: #ff4c68;
+    height: 650px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* navbar  */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 2.5rem 0;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* dounload button */
+.dounload-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.img-iphone {
+    width: 50%;
+    transform: rotate(20deg);
+}
+
+/* features */
+.h3-features {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Bold';
+    font-size: 2rem;
+}
+
+.div-fetures {
+    text-align: center;
+    padding: 5%;
+}
+
+#features {
+    padding-top: 50px;
+    /* background-color: #644cff; */
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.p-features {
+    width: 15rem;
+    color: #8f8f8f;
+}
+
+.icon {
+    margin-bottom: 5%;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+@media (max-width:1028px) {
+    .p-features{
+        padding-left: 25%;
+        padding-right: 25%;
+        width: 450px;
+    }
+}
+/* testimonials section */
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+}
+
+.testimonials-image {
+    width: 15%;
+    border-radius: 100%;
+    /* border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%; */
+    /* size: 4rem; */
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 20%;
+    padding: 2%;
+    margin-bottom: 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+    
+}
+/* bootstrip is website from where you gate direct snipit of pages */
+/* prising section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+    /* padding-right: 80px; */
+}
+.pricing-h2 {
+    /* size: 3rem; */
+    color: black;
+}
+
+.pricing-colomn{
+    /* padding: 3% 2%; */
+    padding-right: 30px;
+    
+}
+/* I learn Z index property in css which is tail which element is on top and which is on behind greter the z index is on top and lower the z index is on behind */
+/* mobile friendly test is website where we check our website responsivness or know how our website response in mobile  */
+/* @media query is solution of  responsive websites*/
+@media (max-width:1028px) {
+    .img-iphone{
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        /* background-color: #ff4c68; */
+        height: 900px;
+        text-align: center;
+    }
+}
+/* cta section */
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    height: 400px;
+}
+.cta-h3{
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+    font-size: 3rem;
+    width: 700px;
+    margin: 10px auto;
+    padding-top: 60px;
+    color: #fff;
+}
+@media (max-width:1028px) {
+    .cta-h3{
+        width: 600px;
+    }
+}
+/* footer section */
+#footer{
+    padding-top: 60px;
+    text-align: center;
+}
+.footer-icon{
+    padding: 10px 10px 20px;
+}
